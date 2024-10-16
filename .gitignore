@@ -134,4 +134,4 @@ dist
 .pnp.*  
 
 # zips
-.zip
+*.zip
