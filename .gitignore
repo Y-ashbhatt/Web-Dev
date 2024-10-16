@@ -43,6 +43,8 @@ node_modules/
 jspm_packages/
 zips/
 zip/
+Front End\zips
+Front\ End/zips/t
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
