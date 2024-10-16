@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+nav{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.7rem;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: #f9f9f9;
+    position: relative;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65rem;
+    gap: 10rem;
+    position: relative;
+}  
+.hero-main{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.hero-text h1 {
+    color: #2d2e32;
+    font-size: 5.5rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.hero-text p {
+    color: #555;
+    font-family: Mulish, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.hero-text span {
+    cursor: pointer;
+    display: flex;
+    gap: 1.3rem;
+    margin: 2.5rem 0;
+}
+.skills {
+    align-items: center;
+    bottom: 0;
+    color: #767676;
+    display: flex;
+    font-size: 1.7rem;
+    left: 0;
+    position: absolute;
+}
+.skills p {
+    border-right: 2px solid rgba(45, 46, 50, .5);
+    color: #2d2e32;
+    font-family: Mulish, sans-serif;
+    font-weight: 600;
+    margin-right: 7rem;
+    padding-right: 2rem;
+}
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    list-style: none;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.resume{ 
+    height: 50vh;
+}
+
+.projects {
+    background-color: #767676;
+    height: 50vh;
+    width: 100%;
+}

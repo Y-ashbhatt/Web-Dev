@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+
+   
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+    .grid{
+      display: grid;
+      height: 748px;
+      width: 748px;
+      background-color: #000;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 22px;
+      
+      gap: 9px;
+    }
+    .redbox{
+      background-color: #E72F24;
+    }
+    .whitebox{
+      background-color: #F0F1EC;
+      grid-column: span 3;
+    }
+    .item1{
+      background-color: #F0F1EC;
+      grid-row: span 2;
+    }
+    .item2{
+      background-color: #F0F1EC;
+      grid-area: 2 / 2 / 4 /4
+    }
+    .item3{
+      background-color: #004592;
+      border-bottom: 10px solid #000;
+    }
+    .item4{
+      background-color: #F0F1EC;
+      grid-row:span 2;
+    }
+    .item5{
+      background-color: #F0F1EC;
+    }
+    .item6{
+      background-color: #F9D01E;
+    }
+    .item7{
+      background-color: #232629;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div  class="grid">
+      <div class="redbox"></div>
+      <div class="whitebox"></div>
+      <div class="item1"></div>
+      <div class="item2"></div>
+      <div class="item3"></div>
+      <div class="item4"></div>
+      <div class="item5"></div>      
+      <div class="item6"></div>      
+      <div class="item7"></div>      
+
+    </div>
+  </div>
+</body>
+
+</html>
