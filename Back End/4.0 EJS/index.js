@@ -10,15 +10,14 @@ app.get("/", (req, res) => {
   let type = "a weekday";
   let adv = " it's time to work hard!!";
 
-    if(day == 0  || day == 6){
-        type = "a weekend"
-        adv = " it's time to have fun!!"
-    }
-  
+  if (day == 0 || day == 6) {
+    type = "a weekend";
+    adv = " it's time to have fun!!";
+  }
 
   res.render("index.ejs", {
     dayType: type,
-    advice: adv
+    advice: adv,
   });
 });
 
